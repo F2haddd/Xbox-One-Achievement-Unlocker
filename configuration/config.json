@@ -1,0 +1,17 @@
+{
+    "discord": [
+        {
+            "Send_Webhook_Enabled": true,
+            "Webhook_URL": "",
+            "Webhook_Username": "",
+            "Webhook_Avatar_URL": "",
+            "Webhook_Embed_Thumbnail": ""
+        }
+    ],
+    "xbox_feed": [
+        {
+            "Send_Day_One_Post": true,
+            "Post_Text": ""
+        }
+    ]
+}
