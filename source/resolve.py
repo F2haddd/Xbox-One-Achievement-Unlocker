@@ -25,9 +25,11 @@ class Resolve_Info():
 
                 elif request_info.status == 401:
                     print(" \x1b[1;37m[\x1b[1;33m!\x1b1[1;37m] Authorization Token Invalid!                                       ", end="\r", flush=True)
+                    xuid, gamertag, gamerscore = ""
                     exit(0)
                 else:
                     print(" \x1b[1;37m[\x1b[1;31m!\x1b1[1;37m] Encountered An Error While Retrieving Account Information!                                       ", end="\r", flush=True)  
+                    xuid, gamertag, gamerscore = ""
                     exit(0)
         except:
             pass
