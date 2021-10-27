@@ -31,10 +31,10 @@ class Title_Spoofer():
                     print(f" \x1b[1;37m[\x1b[1;32m+\x1b[1;37m] Spoofed Title ID: [\x1b[1;36m{title}\x1b[1;37m]                                       ", end="\r", flush=True)
                     self.spoofed = True
                 elif spoof_request.status == 401:
-                    print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Authorization Token Expired!                                       ", end="\r", flush=True)
+                    print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Authorization Token Invalid!                                       ")
                     exit(0)
                 elif spoof_request.status == 403:
-                    print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Improper Token Type For This Process!                                       ", end="\r", flush=True)
+                    print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Improper Token Type For This Process!                                       ")
                     exit(0)
                 else:
                     print(f" \x1b[1;37m[\x1b[1;31m-\x1b[1;37m] Failed to Spoof Title ID: [\x1b[1;31m{title}\x1b[1;37m] Skipped.. {spoof_request.status}                                       ", end="\r", flush=True)
