@@ -72,10 +72,10 @@ class Unlock_Achievements():
                     if unlock_request.status in [200, 201, 202, 204]:
                         print(f" \x1b[1;37m[\x1b[1;32m✓\x1b[1;37m] Range [\x1b[1;36m{self.range}\x1b[1;37m] Unlocked Successfully                                       ", end="\r", flush=True)
                     elif unlock_request.status == 401:
-                        print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Authorization Token Expired!                                       ", end="\r", flush=True)
+                        print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Authorization Token Invalid!                                       ")
                         exit(0)
                     elif unlock_request.status == 403:
-                        print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Improper Token Type For This Process!                                       ", end="\r", flush=True)
+                        print(f" \x1b[1;37m[\x1b[1;33m!\x1b[1;37m] Improper Token Type For This Process!                                       ")
                         exit(0)
                     elif unlock_request.status == 304:
                         print(f" \x1b[1;37m[\x1b[1;36m✓\x1b[1;37m] Range [\x1b[1;36m{self.range}\x1b[1;37m] Already Unlocked                                       ", end="\r", flush=True)
