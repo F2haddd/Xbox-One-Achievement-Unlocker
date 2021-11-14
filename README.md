@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#beware">BEWARE OF PERMANENT PROFILE BANS.</a> •
+  <a>[!] BEWARE OF PERMANENT PROFILE BANS [!]</a>
 </p>
 
 
