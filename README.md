@@ -1,1 +1,8 @@
-<b> THE TOKEN BEING INVISIBLE IS NORMAL WHEN ENTERING IT. THE SCRIPT USES GETPASS SO IT WILL NOT SHOW UP TO HIDE SENSITIVE INFORMATION.</b>
+<p align="center">
+  <a href="#beware">BEWARE OF PERMANENT PROFILE BANS.</a> •
+</p>
+
+
+* Horrible Code :)
+* 100% Bannable
+* Your Token Will Not Show When You Enter It Due To The Input Method Using GetPass.
